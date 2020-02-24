@@ -14,3 +14,7 @@ class Deck:
 
     def __repr__(self):
         return str(self.cards)
+
+    def draw_a_card(self):
+        return self.cards.pop()
+        
